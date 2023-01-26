@@ -28,12 +28,13 @@ input {
 
 
 
-/*  //=== MEDIA QUERIES ===// */
+/*  //=== MEDIA QUERIES ====// */
 
 @media(max-width: 1280px) {
 
     .banner-container .banner-text {
         margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     .banner-container .banner-text h2 {
