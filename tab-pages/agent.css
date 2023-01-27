@@ -1,0 +1,33 @@
+@import url('../main.css');
+
+.container {
+    position: relative;
+    background-color: #cb47ec;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container .join-form {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    width: 30rem;
+    margin-bottom: 1rem;
+}
+
+form button,
+.join-form button {
+    width: 7rem;
+    height: 2rem;
+}

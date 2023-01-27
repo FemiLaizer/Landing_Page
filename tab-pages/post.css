@@ -1,0 +1,35 @@
+@import url('../main.css');
+
+.container {
+    position: relative;
+    background-color: #f76d9b;
+}
+
+.post-container {
+    position: absolute;
+    /* top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.post {
+    cursor: pointer;
+    width: 80%;
+    height: 8.5rem;
+    border: 1px solid black;
+}
+
+.post h3 {
+    margin: 2rem 0 0 1.5rem;
+}
+
+.post p {
+    margin: 0.8rem 1.5rem;
+}
+
+.post p {
+    line-height: 25px;
+}
